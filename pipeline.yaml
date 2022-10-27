@@ -114,7 +114,7 @@ metadata:
 spec:
   selector:
     app: mongodb-express
-  # type: LoadBalancer # Uncomment for external service
+    type: LoadBalancer # Uncomment for external service
   ports:
     - protocol: TCP
       port: 8081
